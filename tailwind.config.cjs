@@ -11,17 +11,21 @@ module.exports = {
         secondary: "#95BBE9",
         white: "#FFFFFF",
         black: "#000000",
+        gradient: "var(--pink-blue-gradient)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
 
       fontSize: {
-        sm: ['14px', '20px'],
-        base: ['16px', '24px'],
-        lg: ['32px', '22px'],
-        header: ['40px', '58px'],
+        xs: ['14px', '19px'],
+        sm: ['16px', '24px'],
+        linkfont: ['14px', '22px'],
+        pageheader: ['32px', '22px'],
+        header: ['40px', '58px']
       }
+    
+
     },
     screens: {
       xs: "480px",

@@ -8,10 +8,10 @@
 :root {
   --pink-blue-gradient: linear-gradient(
     66.45deg,
-     rgba(149, 187, 233, 0.79) 13.71%,
-     rgba(241, 184, 210, 0.74) 94.74%);
+     rgba(149, 187, 233, 0.79),
+     rgba(241, 184, 210, 0.74));
   
-  --card-shadow:  4px 4px 100px 4px rgba(0, 0, 0, 0.25);
+  --card-shadow:  rgba(0, 0, 0, 0.25);
      /* #95BBE9 79% blue
     #F1B8D2 74% pink */
 }
@@ -21,12 +21,22 @@
 }
 
 .CTA-gradient {
-  background: linear-gradient(252.34deg, #F1B8D2 -4.03%, #95BBE9 112.41%);
+  /* color: white; */
+  background: linear-gradient(252.34deg, #F1B8D2, #95BBE9);
+  box-shadow: 4px 4px 40px 4px var(--card-shadow) ;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(66.45deg,
+  rgba(149, 187, 233, 0.79),
+  rgba(241, 184, 210, 0.74)) 0;
 }
 
-.CTA-shadow {
-  box-shadow: 4px 4px 40px 4px rgba(168, 168, 168, 0.25);
+.bg-gradient {
+   background: linear-gradient(252.34deg, #F1B8D2 -4.03%, #95BBE9 112.41%); 
 }
+
+
 
 
 /* :root {
